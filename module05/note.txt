@@ -1,0 +1,11 @@
+lower(): Converts all characters to lowercase.
+upper(): Converts all characters to uppercase.
+title(): Converts the first letter of each word to uppercase.
+replace(old, new): Replaces occurrences of a substring with another.
+len(): Returns the length of the string.
+strip(): Removes leading and trailing whitespace.
+lstrip(): Removes leading whitespace.
+rstrip(): Removes trailing whitespace.
+center(width, fillchar): Centers the string within a specified width.
+ljust(width, fillchar): Left-justifies the string within a specified width.
+rjust(width, fillchar): Right-justifies the string within a specified width.
