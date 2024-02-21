@@ -1,17 +1,17 @@
-'''
+"""
 Sort files based on extensions
-'''
+"""
 
 import argparse
 from pathlib import Path
 from shutil import copyfile
 
-parser = argparse.ArgumentParser(description='Sorting folder')
-parser.add_argument('--source', '-s', required=True, help='Source folder')
-parser.add_argument('--output', '-o', default='dist', help='Output folder')
+parser = argparse.ArgumentParser(description="Sorting folder")
+parser.add_argument("--source", "-s", required=True, help="Source folder")
+parser.add_argument("--output", "-o", default="dist", help="Output folder")
 args = vars(parser.parse_args())
-source = args.get('source')
-output = args.get('output')
+source = args.get("source")
+output = args.get("output")
 
 
 def read_folder(path: Path) -> None:
@@ -20,6 +20,7 @@ def read_folder(path: Path) -> None:
             read_folder(el)
         else:
             copy_file(el)
+
 
 def copy_file(file: Path) -> None:
     ext = file.suffix

@@ -1,4 +1,7 @@
 # count values
+# git add 01.py
+# git commit -m "dict example"
+# git push
 
 data = {
     2000: "Ford",
@@ -12,17 +15,13 @@ data = {
     2007: "Hyndai",
     2008: "Ford",
 }
-
-
 # iterate dicts:
 for key in data:
     print(key, ":", data[key])
 
-for key, value in data.items():
+for key,value in data.items():
     print(key, ":", value)
-
 # return a list of years where Fords were sold out
-
 choice = "Ford"
 res = list()
 for year in data:

@@ -4,7 +4,7 @@ def ip_to_num(ip):
     binary = str()
     for octet in octets:
         value = bin(int(octet))[2:]
-        #format(1, '#010b')
-        binary += ("0"*(8-len(value))) + value
-    
+        # format(1, '#010b')
+        binary += ("0" * (8 - len(value))) + value
+
     return int(binary, 2)

@@ -1,24 +1,24 @@
 # Binary addition
-binary_num1 = '1010' # 10
-binary_num2 = '1101' # 13
+binary_num1 = "1010"  # 10
+binary_num2 = "1101"  # 13
 result = bin(int(binary_num1, 2) + int(binary_num2, 2))
 print(result)
 
 # Binary subtraction
-binary_num1 = '1101'
-binary_num2 = '1010'
+binary_num1 = "1101"
+binary_num2 = "1010"
 result = bin(int(binary_num1, 2) - int(binary_num2, 2))
 print(result)
 
 # Binary multiplication
-binary_num1 = '1010'
-binary_num2 = '1101'
+binary_num1 = "1010"
+binary_num2 = "1101"
 result = bin(int(binary_num1, 2) * int(binary_num2, 2))
 print(result)
 
 # Binary division
-binary_num1 = '1101'
-binary_num2 = '101'
+binary_num1 = "1101"
+binary_num2 = "101"
 result = bin(int(binary_num1, 2) // int(binary_num2, 2))
 print(result)
 
@@ -43,4 +43,4 @@ print(bin(result))
 # Bitwise NOT
 num = 0b1010
 result = ~num
-print(bin(result))  
+print(bin(result))

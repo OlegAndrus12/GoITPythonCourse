@@ -1,4 +1,4 @@
-fruit_list = ['mango', 'apple', 'apple', 'pear', 'banana', 'pomegranate']
+fruit_list = ["mango", "apple", "apple", "pear", "banana", "pomegranate"]
 
 fruit_list.append("orange")
 
@@ -19,4 +19,3 @@ fruit_list.sort(reverse=True)
 fruit_list.sort(key=len)
 
 fruit_list.clear()
-

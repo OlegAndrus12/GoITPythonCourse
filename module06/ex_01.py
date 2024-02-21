@@ -32,13 +32,13 @@ as of 2024.[9] Virtually all countries and languages have 95% or more use of UTF
 """
 
 
-file = open('test.txt', 'w', encoding='utf-8')
-file.write('Hello world!\n')
-file.write('Hello Ukraine!\n')
-file.writelines(['Hi Bob!', 'Hi Dima!', 'Test', 'ups'])
+file = open("test.txt", "w", encoding="utf-8")
+file.write("Hello world!\n")
+file.write("Hello Ukraine!\n")
+file.writelines(["Hi Bob!", "Hi Dima!", "Test", "ups"])
 file.close()
 
-file = open('test.txt', 'r', encoding='utf-8')
+file = open("test.txt", "r", encoding="utf-8")
 # size parameter
 # result = file.read()
 # result = file.readline()

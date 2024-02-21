@@ -7,7 +7,7 @@ print(my_list[6:])
 print(my_list[6::-1])
 
 new_list = my_list[:]
-reversed_copy_list = my_list[::-1]  
+reversed_copy_list = my_list[::-1]
 
 print(reversed_copy_list)
 

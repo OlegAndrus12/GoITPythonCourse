@@ -3,5 +3,5 @@ my_set.add("Daria")
 print("Daria" in my_set)
 
 my_set.remove("Daria")
-my_set.discard("Daria")  # 
+my_set.discard("Daria")  #
 # https://realpython.com/python-sets/

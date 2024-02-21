@@ -1,5 +1,3 @@
-
-
 word = "Oleksandr Savchenko"
 
 res = 0

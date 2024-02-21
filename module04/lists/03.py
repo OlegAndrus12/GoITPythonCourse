@@ -7,7 +7,7 @@ def find_max_vowels(text):
     for character in text:
         if character.lower() not in vowels:
             text = text.replace(character, ".")
-    
+
     chains = text.split(".")
     chains.sort(key=len)
     max_chain = chains[-1]
@@ -18,4 +18,3 @@ text = "aevsaefsdsade asds d asd sa  Oleeeeeeeeh"
 res = find_max_vowels(text)
 
 print(res)
-

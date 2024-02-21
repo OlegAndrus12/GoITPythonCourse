@@ -1,6 +1,6 @@
 from pathlib import Path
 
-p = Path('.')
+p = Path(".")
 
 # print(p.parent)
 # print(p.name)

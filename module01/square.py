@@ -12,7 +12,7 @@ P = a + b + c
 
 p = P / 2
 
-S = math.sqrt( p * (p-a) * (p-b) * (p-c) )
+S = math.sqrt(p * (p - a) * (p - b) * (p - c))
 
 print("Square is ", S)
 print("Square is {}".format(S))

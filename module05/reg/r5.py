@@ -1,17 +1,17 @@
 import re
 
-string = '39802 356, 2102 1111'
+string = "39802 356, 2102 1111"
 
 # Three digit number followed by space followed by two digit number
-pattern = '(\d{3}) (\d{2})'
+pattern = "(\d{3}) (\d{2})"
 
 # match variable contains a Match object.
-match = re.search(pattern, string) 
+match = re.search(pattern, string)
 
 if match:
-  print(match.group())
+    print(match.group())
 else:
-  print("pattern not found")
+    print("pattern not found")
 
 
 print(match.group(1))

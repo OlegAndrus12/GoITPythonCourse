@@ -1,11 +1,11 @@
 try:
-    print('asdsad')
-    print(1/0)
+    print("asdsad")
+    print(1 / 0)
 except Exception as asdsad:
     print(asdsad)
     print(type(asdsad))
-    print('ASdsadsdsadsadasd')
+    print("ASdsadsdsadsadasd")
 else:
-    print('No exception')
+    print("No exception")
 finally:
-    print('Ok then')
+    print("Ok then")

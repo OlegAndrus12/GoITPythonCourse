@@ -1,5 +1,3 @@
-
-
 menu = """
     #1: open tiktok
     #2: open instagram

@@ -1,19 +1,20 @@
 message = "here i am"
 
-# outside function 
+
+# outside function
 def outer():
-    message = 'local'
+    message = "local"
 
-    # nested function  
+    # nested function
     def inner():
-
         # declare nonlocal variable
-        nonlocal message # change to global
-        message = 'nonlocal2222'
+        nonlocal message  # change to global
+        message = "nonlocal2222"
         print("inner:", message)
 
     inner()
     print("outer:", message)
+
 
 outer()
 print(message)

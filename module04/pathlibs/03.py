@@ -1,6 +1,6 @@
 from pathlib import Path
 
-p = Path('.')
+p = Path(".")
 
 # print(p.parent)
 # print(p.name)
@@ -11,6 +11,7 @@ p = Path('.')
 # iterdir
 
 [(), ()]
+
 
 def parse_folder(path):
     for el in path.iterdir():

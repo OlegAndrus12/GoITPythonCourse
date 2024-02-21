@@ -1,14 +1,15 @@
-#https://www.codewars.com/kata/59c5f4e9d751df43cf000035/python
+# https://www.codewars.com/kata/59c5f4e9d751df43cf000035/python
 
 
 def solve(s):
-    st="aeiou"
-    
+    st = "aeiou"
+
     for i in s:
         if not i in st:
-            s=s.replace(i,".")
+            s = s.replace(i, ".")
 
     return max([len(i) for i in s.split(".")])
+
 
 def solve(s):
     current = 0
@@ -23,6 +24,9 @@ def solve(s):
             current = 0
     return longest
 
+
 import re
+
+
 def solve(s):
-  return len(max(re.findall(r"[aeiou]+", s), key=len, default=""))
+    return len(max(re.findall(r"[aeiou]+", s), key=len, default=""))

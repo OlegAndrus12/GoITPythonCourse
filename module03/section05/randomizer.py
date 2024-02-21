@@ -1,8 +1,8 @@
-
 import random
 
+
 def get_random_number():
-    number = random.randrange(1, 1000) # Get random number between [1 and 1000)
+    number = random.randrange(1, 1000)  # Get random number between [1 and 1000)
     return number
 
 

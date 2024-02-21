@@ -1,11 +1,11 @@
 for x in range(6):
-  print(x)
+    print(x)
 else:
-  print("Finally finished!")
+    print("Finally finished!")
 
 
 count = 0
-while (count < 3):
+while count < 3:
     count = count + 1
     print("Hello Geek")
 else:

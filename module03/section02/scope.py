@@ -1,20 +1,17 @@
-
 # outer
 def calculator(a, b, operation):
     message = "first level"
-    
+
     # inner
     def add(a, b):
         nonlocal message
         message = "second level"
         print(message)
         return a + b
-    
 
     def substract(a, b):
         return a - b
-    
-    
+
     if operation == "+":
         print(message)
         res = add(a, b)
@@ -30,23 +27,20 @@ a = calculator(1, 5, "+")
 print(a)
 
 
-
-
-
-# outside function 
+# outside function
 def outer():
-    message = 'local'
+    message = "local"
 
-    # nested function  
+    # nested function
     def inner():
-
         # declare nonlocal variable
         nonlocal message
 
-        message = 'nonlocal'
+        message = "nonlocal"
         print("inner:", message)
 
     inner()
     print("outer:", message)
+
 
 outer()

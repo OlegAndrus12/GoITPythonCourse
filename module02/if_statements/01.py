@@ -14,9 +14,9 @@ if username == "admin":
     else:
         print("Incorrect password")
 elif username == "guest":
-        if password == "guest_sun":
-            print("Login successful! Welcome guest!")
-        else:
-            print("Incorrect password")
+    if password == "guest_sun":
+        print("Login successful! Welcome guest!")
+    else:
+        print("Incorrect password")
 else:
     print("go to school!")

@@ -1,16 +1,17 @@
 def camel_to_snake(str):
     j = 0
-    res=""
+    res = ""
     for i in str:
         if i.isupper():
             if j == 0:
                 res += i.lower()
             else:
-                res+="_"+i.lower()
+                res += "_" + i.lower()
         else:
-            res+=i
-        j+=1
+            res += i
+        j += 1
     return res
+
 
 # Driver code
 str = "GeeksForGeeks"

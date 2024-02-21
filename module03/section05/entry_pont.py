@@ -1,4 +1,3 @@
-
 from messages import print_message
 import randomizer
 
@@ -17,4 +16,4 @@ while guess != number:
     print_message(number, guess)
     guess = int(input("Guess again: "))
 
-print("\n\nGreat, you got it in", guesses,  "guesses!")
+print("\n\nGreat, you got it in", guesses, "guesses!")
