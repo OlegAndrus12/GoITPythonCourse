@@ -22,6 +22,11 @@ Examples for Python Core course
 - [Regex tutorial 1](https://github.com/abhirajshourya/Regex-Course/tree/main)
 - [Regex tutorial 2](https://github.com/michelleful/RegexTutorial/tree/master)
 - [Regex tutorial 3](https://github.com/nikhilkumarsingh/RegEx-In-Python/tree/master)
+- [Named tuple](https://realpython.com/python-namedtuple/)
+- [Pre-commit to run black every time commit is done](https://pre-commit.com/)
+- [Decorators 1](https://vegibit.com/python-error-handling-decorator/)
+- [Generators and iterators](https://realpython.com/python-iterators-iterables/#creating-generator-iterators)
+- [Comprehensions vs filter/map/reduce](https://www.knowledgehut.com/blog/programming/python-map-list-comprehension#python%C2%A0any-list-comprehension%C2%A0(use-of-%22any%22-keyword)%C2%A0)
 
 
 
