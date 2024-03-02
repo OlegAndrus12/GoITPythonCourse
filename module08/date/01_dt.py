@@ -5,5 +5,6 @@ print(d)
 print(d.date())
 print(d.time())
 
+
 print(datetime.now())
 print(datetime.today())
