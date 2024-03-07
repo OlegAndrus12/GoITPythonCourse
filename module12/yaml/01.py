@@ -1,3 +1,5 @@
+# pip3 install pyyaml
+
 import yaml
 
 users = [
